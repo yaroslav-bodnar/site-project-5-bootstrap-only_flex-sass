@@ -1,0 +1,186 @@
+body
+	margin: 0
+	font-family: "Tahoma"
+// body
+
+
+.header__container-1
+	margin: auto
+	width: 1140px
+	background-color: #ffffff
+	display: flex
+	justify-content: space-between
+	align-items: center
+	&__foto-book
+		margin-right: 74px
+	&__text
+		margin-right: 125px
+		&__title
+			color: #000000
+			font-size: 48px
+			font-weight: 700
+			margin: 0px 0px 15px 0px
+		&__subtitle
+			color: #000000
+			font-size: 30px
+			font-weight: 400
+			margin-bottom: 35px
+		&__discription
+			color: #000000
+			font-size: 18px
+			font-weight: 400
+			line-height: 27px
+			margin-bottom: 47px
+		&__price
+			color: #313131
+			font-size: 48px
+			font-weight: 400
+			line-height: 27px
+			margin-bottom: 53px
+		&__buttons
+			&__button-1
+				border-radius: 5px
+				background-color: #f05a22
+				padding: 22px 42px 22px 46px
+				margin-right: 40px
+				margin-bottom: 40px
+				&__text
+					color: #ffffff
+					font-family: Tahoma
+					font-size: 24px
+					font-weight: 700
+					line-height: 27px
+			&__button-2
+				border-radius: 5px
+				border: 2px solid #f05a22
+				background-color: transparent
+				padding: 21px 30px 22px 30px
+				&__text
+					color: #f05a22
+					font-family: Tahoma
+					font-size: 24px
+					font-weight: 700
+					line-height: 27px
+// header
+
+
+.main__container-features
+	margin-top: 96px
+	margin-bottom: 91px
+	width: 100%
+	min-height: 408px
+	background-color: #f2f2f2
+	display: flex
+	justify-content: center 
+	&__features
+		width: 1140px
+		min-height: 220px
+		margin: auto
+		text-align: center
+		display: flex
+		flex-flow: column
+		&__title
+			color: #333333
+			font-family: Tahoma
+			font-size: 30px
+			font-weight: 700
+			line-height: 27px
+		&__services
+			margin-top: 91px
+			display: flex
+			justify-content: space-between
+			&__shopping_cart
+				&__img
+					min-height: 55px
+				&__text
+					color: #333333
+					font-family: "Open Sans"
+					font-size: 18px
+					font-weight: 400
+					line-height: 22px
+			&__credit_card
+				&__img
+					min-height: 55px
+				&__text
+					color: #333333
+					font-family: "Open Sans"
+					font-size: 18px
+					font-weight: 400
+					line-height: 22px
+			&__shipped
+				&__img
+					min-height: 55px
+				&__text
+					color: #333333
+					font-family: "Open Sans"
+					font-size: 18px
+					font-weight: 400
+					line-height: 22px
+			&__mailbox
+				&__img
+					min-height: 55px
+				&__text
+					color: #333333
+					font-family: "Open Sans"
+					font-size: 18px
+					font-weight: 400
+					line-height: 22px
+// features
+
+
+.main__container-customers
+	width: 1140px
+	margin: auto
+	background-color: #ffffff
+	text-align: center
+	display: flex
+	flex-direction: column
+	&__title
+		color: #333333
+		font-family: Tahoma
+		font-size: 30px
+		font-weight: 700
+		line-height: 27px
+		margin-bottom: 69px
+	&__images
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		&__img
+			margin-top: 40px
+// customers
+
+
+@media (max-width: 992px)
+	.header__container-1
+		width: 700px
+		flex-direction: column
+	.header__container-1__text
+		width: 500px
+		margin-top: 50px
+	.header__container-1__foto-book
+		width: 500px
+	.header__container-1__text__discription
+		width: 502px
+	.main__container-features__features__services
+		flex-wrap: wrap
+		margin-left: 20px
+		margin-right: 20px
+		&__credit_card__text
+			margin-bottom: 20px
+		&__shopping_cart__text
+			margin-bottom: 20px
+		&__shipped__text
+			margin-bottom: 20px
+		&__mailbox__text
+			margin-bottom: 20px
+
+@media (max-width: 1200px)
+	.header__container-1
+		width: 900px
+	.header__container-1__foto-book
+		margin-right: 50px
+	.header__container-1__text
+		margin-right: 10px
+	.main__container-customers
+		width: 700px
